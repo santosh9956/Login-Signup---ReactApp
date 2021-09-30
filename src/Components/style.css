@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_content{
+    color: rgb(238, 10, 116);
+}
+
+
+.video_width{
+    margin-bottom: 2rem;
+    width: 80%;
+    height: 50vh;
+}
+
+.signup_button , .login_button{
+    cursor: pointer;
+    width: 80%;
+    height: 6vh;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup_button{
+    background-color: rgba(255, 68, 0, 0.938);
+   
+}
+.signup_Link{
+    color: #ffffffd8;
+}
+
+.signup_Link:hover{
+    color: white;
+}
+
+.text_decoration{
+    text-decoration: none;
+}
+
+.login_links{
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.login_links:hover{
+    color: black;
+}
+
+.login_form , .signup_form{
+    /* width: 40vw; */
+    animation: animate 0.5s linear 0s;
+    z-index: 2;
+    border-radius:10px ;
+    background-color: rgb(9, 202, 228);
+    z-index: 999;
+    /* border: 2px solid red; */
+}
+
+@keyframes animate{
+    from{
+        margin-left: 50%;
+    }
+
+    to{
+        margin-left: 0%;
+    }
+}
+
+
+.errormsg{
+    color: red;
+}
+
+.successmsg{
+    color:green;
+}
+
+.left_arrow , .right_arrow{
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
